@@ -1,5 +1,11 @@
-﻿# DialogSkillBot
+# Sample code for botframework skill for pva (copilot studio)
+For using it, make following updates:
 
-This bot is a variation of CoreBot that has been modified to work as a skill.
+- update .env
+- update manifest file under manifest folder
+- update activityRouterDialog under dialogues folder. I have a dummy weather activity that just gives dummy response
 
-See [SkillDialog](../) for details on how to configure and run this sample.
+
+Before adding as skill in Copilot Studio, you have to give manifest url.
+
+In app registration in Azure, make sure to have homepage url same as the manifest file url
