@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.botframework.com/schemas/skills/v2.2/skill-manifest.json",
+  "$id": "freshbot-1dc3eee7-f785-494f-a7d2-c16fc719db77",
+  "endpoints": [
+    {
+      "name": "americas",
+      "protocol": "BotFrameworkV3",
+      "description": "Production  endpoint for SkillBot in the Americas",
+      "endpointUrl": "https://ead9-2607-fb10-7231-1-00-3c2.ngrok-free.app/api/messages",
+      "msAppId": "f2e20fdf-b728-4d88-af79-273f8b8d0fce"
+    }
+
+
+  ],
+  "name": "skillbot",
+  "version": "v3",
+  "publisherName": "Cloudatica",
+  "activities": {
+    "DynamicQuestion": {
+      "type": "event",
+      "name": "GetWeather"
+    },
+    "conversationUpdate": {
+      "type": "conversationUpdate"
+    }
+  }
+}
